@@ -1,0 +1,12 @@
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/ibtool/LaunchScreen.nib
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/build-ipad2.5-9.0.2/actool/partial-info.plist
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/build-ipad2.5-9.0.2/actool/asset-manifest.plist
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/optimized/
+/Users/jonhamshaw/Projects/Zest/Zest/bin/iPhone/Debug/Zest.exe.mdb
+/Users/jonhamshaw/Projects/Zest/Zest/bin/iPhone/Debug/Zest.exe
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/Zest.exe
+/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/Zest.exe.mdb

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>get-task-allow</key>
+	<true/>
+	<key>application-identifier</key>
+	<string>CGEB28JZSE.iamhamsure.zest</string>
+	<key>com.apple.developer.icloud-container-environment</key>
+	<string>Development</string>
+	<key>com.apple.developer.team-identifier</key>
+	<string>CGEB28JZSE</string>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.default-data-protection</key>
+	<string>NSFileProtectionComplete</string>
+</dict>
+</plist>
