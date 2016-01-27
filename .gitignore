@@ -1,3 +1,4 @@
+<<<<<<< 51fd622e20864874059a05a751b381b8cb7da8a9
 #Autosave files
 *~
 
@@ -39,3 +40,22 @@ Thumbs.db
 #dotCover
 *.dotCover
 
+=======
+Components
+packages
+Resource.designer.cs
+
+*/bin
+*/obj
+
+*.pidb
+*.userprefs
+*.swp
+*.DS_Store
+*.nib
+*.suo
+*.user
+*.pfx
+
+*_ReSharper.*/
+>>>>>>>  fix ignore files
