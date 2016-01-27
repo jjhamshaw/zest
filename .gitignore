@@ -2,8 +2,8 @@ Components
 packages
 Resource.designer.cs
 
-*/bin
-*/obj
+Zest/bin
+Zest/obj
 
 *.pidb
 *.userprefs
