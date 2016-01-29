@@ -8,7 +8,6 @@ namespace Zest
 	{
 		public DateTime CreatedDate { get; set; }
 		public string Title { get; set; }
-//		public IList<IRecordData> Title { get; set; }
 	}
 }
 

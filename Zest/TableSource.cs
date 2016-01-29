@@ -2,6 +2,8 @@
 using UIKit;
 using System.Collections.Generic;
 using System.Linq;
+using Foundation;
+using CoreText;
 
 namespace Zest
 {
@@ -10,9 +12,19 @@ namespace Zest
 		readonly List<DiaryEntryModel> DiaryEntries;
 		const string cellIndentifier = "Foo";
 
-		public TableSource (List<DiaryEntryModel> DiaryEntries)
+		public TableSource () : this(new List<DiaryEntryModel>()) {
+		}
+
+		public TableSource (List<DiaryEntryModel> diaryEntries)
 		{
-			this.DiaryEntries = DiaryEntries;
+			DiaryEntries = diaryEntries;
+		}
+
+		public void InsertNew ()
+		{
+			DiaryEntries.Insert (0, new DiaryEntryModel (){
+				CreatedDate = DateTime.Now
+			});
 		}
 
 		public override UITableViewCell GetCell (UITableView tableView, Foundation.NSIndexPath indexPath)
@@ -33,6 +45,15 @@ namespace Zest
 		public override nint RowsInSection (UITableView tableview, nint section)
 		{
 			return DiaryEntries.Count;
+		}
+
+		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
+		{
+			var selected = DiaryEntries.Where<DiaryEntryModel> ((item, index) => index == indexPath.Row).First();
+			var alertController = UIAlertController.Create ("Row selected", selected.Title, UIAlertControllerStyle.Alert);
+			alertController.AddAction (UIAlertAction.Create ("OK", UIAlertActionStyle.Default, null));
+
+			tableView.DeselectRow (indexPath, true);
 		}
 	}
 }
