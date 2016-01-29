@@ -37,7 +37,7 @@ namespace Zest
 				cell = new UITableViewCell (UITableViewCellStyle.Default, cellIndentifier);
 			}
 
-			cell.TextLabel.Text = item.Title;
+			cell.TextLabel.Text = item.CreatedDate.ToString();
 
 			return cell;
 		}
