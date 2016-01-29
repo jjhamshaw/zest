@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Zest
 {
-	partial class MasterTableViewController : UITableViewController
+	public partial class MasterTableViewController : UITableViewController
 	{
 		TableSource dataSource;
 
@@ -37,7 +37,7 @@ namespace Zest
 
 			NavigationItem.RightBarButtonItem = new UIBarButtonItem (UIBarButtonSystemItem.Add, AddNewItem);
 
-			TableView.Source = dataSource = new TableSource ();
+			TableView.Source = dataSource = new TableSource (this, new List<DiaryEntryModel>());
 		}
 
 

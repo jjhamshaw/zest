@@ -10,13 +10,14 @@ namespace Zest
 	public class TableSource : UITableViewSource
 	{
 		readonly List<DiaryEntryModel> DiaryEntries;
+		readonly MasterTableViewController parentController;
+
 		const string cellIndentifier = "Foo";
 
-		public TableSource () : this(new List<DiaryEntryModel>()) {
-		}
 
-		public TableSource (List<DiaryEntryModel> diaryEntries)
+		public TableSource (MasterTableViewController masterTableViewController, List<DiaryEntryModel> diaryEntries)
 		{
+			parentController = masterTableViewController;
 			DiaryEntries = diaryEntries;
 		}
 
@@ -50,10 +51,12 @@ namespace Zest
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
 		{
 			var selected = DiaryEntries.Where<DiaryEntryModel> ((item, index) => index == indexPath.Row).First();
-			var alertController = UIAlertController.Create ("Row selected", selected.Title, UIAlertControllerStyle.Alert);
+			var alertController = UIAlertController.Create ("Row selected", selected.CreatedDate.ToString(), UIAlertControllerStyle.Alert);
 			alertController.AddAction (UIAlertAction.Create ("OK", UIAlertActionStyle.Default, null));
 
 			tableView.DeselectRow (indexPath, true);
+
+			parentController.PresentViewController (alertController, true, null);
 		}
 	}
 }
