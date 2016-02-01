@@ -1,3 +1,0 @@
-/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/build-ipad2.5-9.0.2/mtouch-cache/Link/Xamarin.iOS.dll
-/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/build-ipad2.5-9.0.2/mtouch-cache/Link/Zest.exe
-/Users/jonhamshaw/Projects/Zest/Zest/obj/iPhone/Debug/build-ipad2.5-9.0.2/mtouch-cache/Link/mscorlib.dll
