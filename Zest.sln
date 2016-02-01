@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zest", "Zest\Zest.csproj", "{52DEC59B-134C-4C8E-89BC-283762B42C0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zest-New", "Zest-New\Zest-New.csproj", "{27346422-853E-4E6F-B490-4BECAEAFAAC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -11,6 +13,14 @@ Global
 		Debug|iPhone = Debug|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27346422-853E-4E6F-B490-4BECAEAFAAC8}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{27346422-853E-4E6F-B490-4BECAEAFAAC8}.Debug|iPhone.Build.0 = Debug|iPhone
+		{27346422-853E-4E6F-B490-4BECAEAFAAC8}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{27346422-853E-4E6F-B490-4BECAEAFAAC8}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{27346422-853E-4E6F-B490-4BECAEAFAAC8}.Release|iPhone.ActiveCfg = Release|iPhone
+		{27346422-853E-4E6F-B490-4BECAEAFAAC8}.Release|iPhone.Build.0 = Release|iPhone
+		{27346422-853E-4E6F-B490-4BECAEAFAAC8}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{27346422-853E-4E6F-B490-4BECAEAFAAC8}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{52DEC59B-134C-4C8E-89BC-283762B42C0F}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{52DEC59B-134C-4C8E-89BC-283762B42C0F}.Debug|iPhone.Build.0 = Debug|iPhone
 		{52DEC59B-134C-4C8E-89BC-283762B42C0F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
