@@ -10,18 +10,16 @@ namespace ZestNew
     {
         // class-level declarations
 
-        public override UIWindow Window
-        {
+        public override UIWindow Window {
             get;
             set;
         }
 
-        public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
-        {
-            // Override point for customization after application launch.
-            // If not required for your application you can safely delete this method
+        public static RecordDatabase Database;
 
-            return true;
+        public override void FinishedLaunching(UIApplication application)
+        {
+            Database = new RecordDatabase(RecordDatabase.DatabaseFilePath);
         }
 
         public override void OnResignActivation(UIApplication application)

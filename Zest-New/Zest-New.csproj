@@ -90,6 +90,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -108,6 +109,13 @@
       <DependentUpon>RecordViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="RootTableSource.cs" />
+    <Compile Include="Data\RecordDao.cs" />
+    <Compile Include="Data\SQLite.cs" />
+    <Compile Include="Data\SQLiteAsync.cs" />
+    <Compile Include="Data\RecordDatabase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
 </Project>
